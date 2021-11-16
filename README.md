@@ -22,6 +22,7 @@ For your 2nd cube in Server mode you should change the address for 192.168.2.1
 
 If you have a third one in server mode, then it should be 192.168.3.1 and so on...
 
+
 If you're using only 1 Laser cube the default settings are ok
 
 

@@ -5,8 +5,8 @@ Latest Laser Cube LAN / Wifi Python Script working for Touchdesigner
 
 TouchDesigner is a node based programming environment for creative coding. This script provides support for the latests LaserCube connecting via Ethernet / Wifi for TouchDesigner.
 
-Works on Windows 10 64 bit
-Let met know about macOS?
+Works on Windows 10 & 11 64 bit
+Let met know about macOS? I've heard it works
 
 ## Prerequesites
 

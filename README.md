@@ -34,6 +34,7 @@ One other setup could be to have 1 Cube in Server Mode and the other cubes in Cl
 1) Boot your Laser cube and connect to it (You can go in  "Command Prompt" or "PowerShell" on Windows, and type "ipconfig" to check your IP Adress and the Cube address)
 2) Open the TD_LASER_CUBE_WIFI_LAN.toe file
 3) Click on the box called "TD_LASER_CUBE_WIFI_LAN" in its Parameters you should be able to change the LaserCube IP Address and the Sample Rate 30000 by default = 30kpps
+35kpps can be used with the latests cubes with improved galvo. I have noticed that by simply reducing a little to 34500 kpps allows to not overload the buffer/cache of the lasercube
 4) Adjust the Intensity of the laser and the Scale to a lower value to be more careful thanks to the sliders on top and bottom of the ON / OFF button
 5) Click on the ON / OFF Button to start sending data to the Laser Cube
 

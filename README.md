@@ -12,7 +12,7 @@ Let met know about macOS? I've heard it works
 
 1) Download and install **[TouchDesigner](https://derivative.ca/download)**
 2) Download the latest release of this script **[HERE](https://github.com/NairoDorian/Laser-Cube-TouchDesigner/raw/main/TD_LASER_CUBE_WIFI_LAN_2022.toe)**
-3) (Only if you want to connect to more than 1 Laser at the same time on a different network, each cube being in Server Mode) You need to setup the IP assignated to the Cube by default, via Wifi & Ethernet
+3) (Only if you want to connect to more than 1 Laser at the same time on a different network, each cube being in Server Mode) You need to change the IP assignated to the Cube by default, via Wifi & Ethernet
 
 To setup the Cube address manualy, connect to it via Ethernet or Wifi and enter its configuration page, by default at http://192.168.1.1/
 Default Username: LaserCubeUser
@@ -24,6 +24,9 @@ If you have a third one in server mode, then it should be 192.168.3.1 and so on.
 
 
 If you're using only 1 Laser cube the default settings are ok
+
+One other setup could be to have 1 Cube in Server Mode and the other cubes in Client Mode and they should connect to the Server Cube.
+
 
 
 ## How To Laser
@@ -38,8 +41,8 @@ If you're using only 1 Laser cube the default settings are ok
 ## More Informations
 
 Range of valid inputs are:
-- X / Y: -1 to +1
-- Red / Green / Blue: 0 to +1
+- X / Y: float between -1 and +1
+- Red / Green / Blue: float between 0 and +1
 
 
 Note that **[TDAsyncIO](https://github.com/sndmtk/TouchDesigner-asyncio)** is needed to run the script correctly in Touchdesigner, it's already included in the .toe

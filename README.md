@@ -11,7 +11,7 @@ Let met know about macOS?
 ## Prerequesites
 
 1) Download and install **[TouchDesigner](https://derivative.ca/download)**
-2) Download the latest release of this script **[HERE](https://github.com/NairoDorian/LaserCubeTD/releases/download/TD/TD_LASER_CUBE_WIFI_LAN.toe)**
+2) Download the latest release of this script **[HERE](https://github.com/NairoDorian/Laser-Cube-TouchDesigner/raw/main/TD_LASER_CUBE_WIFI_LAN_2022.toe)**
 3) (Only if you want to connect to more than 1 Laser at the same time on a different network, each cube being in Server Mode) You need to setup the IP assignated to the Cube by default, via Wifi & Ethernet
 
 To setup the Cube address manualy, connect to it via Ethernet or Wifi and enter its configuration page, by default at http://192.168.1.1/

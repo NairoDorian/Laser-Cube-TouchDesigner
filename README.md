@@ -11,7 +11,7 @@ Let met know about macOS? I've heard it works
 ## Prerequesites
 
 1) Download and install **[TouchDesigner](https://derivative.ca/download)**
-2) Download the latest release of this script **[HERE](https://github.com/NairoDorian/Laser-Cube-TouchDesigner/raw/main/TD_LASER_CUBE_WIFI_LAN_2026.toe)**
+2) Download the latest release of this script **[HERE](https://github.com/NairoDorian/Laser-Cube-TouchDesigner/raw/main/TD_LASER_CUBE_WIFI_LAN_2022.toe)**
 3) (Only if you want to connect to more than 1 Laser at the same time on a different network, each cube being in Server Mode) You need to change the IP assignated to the Cube by default, via Wifi & Ethernet
 
 To setup the Cube address manualy, connect to it via Ethernet or Wifi and enter its configuration page, by default at http://192.168.1.1/
@@ -32,7 +32,7 @@ One other setup could be to have 1 Cube in Server Mode and the other cubes in Cl
 ## How To Laser
 
 1) Boot your Laser cube and connect to it (You can go in  "Command Prompt" or "PowerShell" on Windows, and type "ipconfig" to check your IP Adress and the Cube address)
-2) Open the TD_LASER_CUBE_WIFI_LAN_2026.toe file
+2) Open the TD_LASER_CUBE_WIFI_LAN.toe file
 3) Click on the box called "TD_LASER_CUBE_WIFI_LAN" in its Parameters you should be able to change the LaserCube IP Address and the Sample Rate 30000 by default = 30kpps
 35kpps can be used with the latests cubes with improved galvo. I have noticed that by simply reducing a little to 34500 kpps allows to not overload the buffer/cache of the lasercube
 4) Adjust the Intensity of the laser and the Scale to a lower value to be more careful thanks to the sliders on top and bottom of the ON / OFF button
